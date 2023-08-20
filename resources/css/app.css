@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Core */
+.flash_message {
+    @apply p-4 mb-4 text-sm text-green-700 bg-green-100 rounded-lg;
+
+}
+
+.flash_message:dark {
+    @apply bg-green-200 text-green-800;
+}
